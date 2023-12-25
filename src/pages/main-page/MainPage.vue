@@ -8,22 +8,26 @@
                    v-model="searchText"
                    placeholder="Enter the film name..."/>
 
-            <div class="select__container">
-                <a class="filter-label">Filter by genre:</a>
+<!--            <div class="select__container">-->
+<!--                <a class="filter-label">Filter by genre:</a>-->
 
-                <select class="select" @change="filterGenre(e, film.genre)">
-                    <option value="">--choose--</option>
-                    <option value="drama">Drama</option>
-                    <option value="thriller">Thriller</option>
-                </select>
-            </div>
+<!--                <select class="select" id="select" onchange="filterGenre($event)">-->
+<!--                    <option value="">&#45;&#45;choose&#45;&#45;</option>-->
+<!--                    <option value="Drama">Drama</option>-->
+<!--                    <option value="Action">Action</option>-->
+<!--                    <option value="Sci-Fi">Sci-Fi</option>-->
+<!--                    <option value="Romance">Romance</option>-->
+<!--                    <option value="Adventure">Adventure</option>-->
+<!--                    <option value="Crime">Crime</option>-->
+<!--                </select>-->
+<!--            </div>-->
 
         </div>
 
 
         <div class="card__container">
             <template v-for="film in films" class="card__container">
-                <CardBlock @click="showCard(film)" v-show="getVisibility(film.name)">
+                <CardBlock @click="showCard(film)" v-show="getVisibility(film.name)" >
 
                     <template v-slot:image>
                         <img :src="film.imageLogo">
@@ -93,8 +97,21 @@ export default {
                 }
             })
         },
-        filterGenre(e, genre) {
-            return (genre.includes(e.value));
+        filterGenre(genre) {
+            this.films.filter((genre) => {
+                const length = this.films.length;
+                for (let i = 0; i < length; i++) {
+                    let film = this.films[i];
+                    console.log(film.genre)
+                    console.log(genre)
+                    return !!(film.genre).includes(genre);
+                }
+            })
+
+            // const select = document.getElementById("select");
+
+            // return (genre.toLowerCase()).includes(select.toLowerCase());
+            // return (genre.includes(e.value));
         }
     },
 }
@@ -114,7 +131,7 @@ export default {
     margin: 10px 60px;
     display: flex;
     height: 100px;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .form-control {
