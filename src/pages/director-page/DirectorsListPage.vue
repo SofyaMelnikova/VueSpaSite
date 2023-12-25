@@ -20,7 +20,7 @@
                     </template>
 
                     <template v-slot:info>
-                        <div class="film__info-name">
+                        <div class="director__info-name">
                             {{ director.name }}
                         </div>
                         <div class="director__info">
@@ -118,6 +118,7 @@ export default {
 
 .director__info-name {
     font-size: 30px;
+    font-family: Cinzel,serif;
 }
 
 .director__info {

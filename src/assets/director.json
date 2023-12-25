@@ -1,47 +1,5 @@
 [
   {
-    "id": 0,
-    "name": "Gia",
-    "image": "src/img/gia/загруженное.jpg",
-    "age": 1998,
-    "birthPlace": "Лондон, Великобритания",
-    "movies": "Интерстеллар, Начало, Помни, Престиж"
-  },
-  {
-    "id": 1,
-    "name": "Гильермо дель Торо",
-    "image": "./assets/directors/deltoro.jpg",
-    "age": 57,
-    "birthPlace": "Гвадалахара, Мексика",
-    "movies": "Мутанты, Форма воды, Тихоокеанский рубеж",
-    "biography": "clever boy",
-    "awards": "null"
-  },
-  {
-    "id": 2,
-    "name": "Квентин Тарантино",
-    "image": "./assets/directors/tarantino.jpg",
-    "age": 58,
-    "birthPlace": "Теннесси, США",
-    "movies": "Криминальное чтиво, Однажды в Голливуде"
-  },
-  {
-    "id": 3,
-    "name": "Мартин Скорсезе",
-    "image": "./assets/directors/skorseze.jpg",
-    "age": 79,
-    "birthPlace": "Нью-Йорк, США",
-    "movies": "Волк с Уолл-стрит, Славные парни, Ирландец"
-  },
-  {
-    "id": 4,
-    "name": "Хаяо Миядзаки",
-    "image": "./assets/directors/hayao-miyazakis.jpg",
-    "age": 80,
-    "birthPlace": "Токио, Япония",
-    "movies": "Унесенные призраками, Ходячий замок"
-  },
-  {
     "id": 5,
     "name": "Steven Allan Spielberg",
     "image": "",
