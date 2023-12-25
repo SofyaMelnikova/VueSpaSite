@@ -61,11 +61,6 @@ export default {
     },
     created() {
         console.log(this.film.imageLogo)
-    },
-    methods: {
-        toMainPage() {
-            this.$router.push('/')
-        },
     }
 }
 
@@ -75,7 +70,6 @@ export default {
 
 .block_img img {
     position: absolute;
-
     object-fit: cover;
 }
 
@@ -87,7 +81,7 @@ export default {
 }
 
 .container-name {
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Cinzel', serif;
 }
 
@@ -106,6 +100,7 @@ img {
 
 .film-info {
     margin: 5px 40px;
+    font-size: 20px;
 }
 
 .image__container {

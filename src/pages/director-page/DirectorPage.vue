@@ -80,7 +80,7 @@ export default {
 }
 
 .container-name {
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Cinzel', serif;
 }
 
@@ -94,6 +94,7 @@ img {
 
 .info__container {
     display: grid;
+    font-size: 20px;
 //justify-content: ;
 }
 

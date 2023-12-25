@@ -33,11 +33,11 @@ export default {
 }
 
 .logo__container {
-    margin: 50px 10px;
+    margin: 40px 10px;
 }
 .logo {
     margin: 30px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .btn__container{

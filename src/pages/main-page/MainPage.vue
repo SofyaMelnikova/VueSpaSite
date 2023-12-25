@@ -60,13 +60,6 @@
                 </CardBlock>
             </template>
         </div>
-        <button class="carousel-control-prev" @click="showPrev">
-            <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" @click="showNext">
-            <span class="carousel-control-next-icon"></span>
-        </button>
-
     </div>
 
 </template>
@@ -108,10 +101,6 @@ export default {
                 }
             })
 
-            // const select = document.getElementById("select");
-
-            // return (genre.toLowerCase()).includes(select.toLowerCase());
-            // return (genre.includes(e.value));
         }
     },
 }
