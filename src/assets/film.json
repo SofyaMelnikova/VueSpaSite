@@ -1,0 +1,47 @@
+[
+  {
+    "id": 0,
+    "name": "Gia",
+    "imageLogo": "src/assets/gia/logo.jpg",
+    "image1": "src/assets/gia/img1.jpg",
+    "image2": "src/assets/gia/img2.jpg",
+    "image3": "src/assets/gia/img3.jpg",
+    "year": 1998,
+    "director": "Michael Cristofer",
+    "genre": "Biography, Drama, Romance",
+    "cast" : "Angelina Jolie, Faye Dunaway, Mercedes Ruehl",
+    "description" : "Gia is a 1998 American biographical drama television film about the life and times of one of the first supermodels, Gia Carangi. The film stars Angelina Jolie as Gia and Faye Dunaway as Wilhelmina Cooper, with Mercedes Ruehl and Elizabeth Mitchell. It was directed by Michael Cristofer and written by Cristofer and Jay McInerney. The original music score was composed by Terence Blanchard."
+  },
+  {
+    "id": 1,
+    "name": "Гильермо дель Торо",
+    "image": "./assets/directors/deltoro.jpg",
+    "age": 57,
+    "birthPlace": "Гвадалахара, Мексика",
+    "movies": "Мутанты, Форма воды, Тихоокеанский рубеж"
+  },
+  {
+    "id": 2,
+    "name": "Квентин Тарантино",
+    "image": "./assets/directors/tarantino.jpg",
+    "age": 58,
+    "birthPlace": "Теннесси, США",
+    "movies": "Криминальное чтиво, Однажды в Голливуде"
+  },
+  {
+    "id": 3,
+    "name": "Мартин Скорсезе",
+    "image": "./assets/directors/skorseze.jpg",
+    "age": 79,
+    "birthPlace": "Нью-Йорк, США",
+    "movies": "Волк с Уолл-стрит, Славные парни, Ирландец"
+  },
+  {
+    "id": 4,
+    "name": "Хаяо Миядзаки",
+    "image": "./assets/directors/hayao-miyazakis.jpg",
+    "age": 80,
+    "birthPlace": "Токио, Япония",
+    "movies": "Унесенные призраками, Ходячий замок"
+  }
+]

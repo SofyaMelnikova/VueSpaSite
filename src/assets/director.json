@@ -1,0 +1,134 @@
+[
+  {
+    "id": 0,
+    "name": "Gia",
+    "image": "src/img/gia/загруженное.jpg",
+    "age": 1998,
+    "birthPlace": "Лондон, Великобритания",
+    "movies": "Интерстеллар, Начало, Помни, Престиж"
+  },
+  {
+    "id": 1,
+    "name": "Гильермо дель Торо",
+    "image": "./assets/directors/deltoro.jpg",
+    "age": 57,
+    "birthPlace": "Гвадалахара, Мексика",
+    "movies": "Мутанты, Форма воды, Тихоокеанский рубеж",
+    "biography": "clever boy",
+    "awards": "null"
+  },
+  {
+    "id": 2,
+    "name": "Квентин Тарантино",
+    "image": "./assets/directors/tarantino.jpg",
+    "age": 58,
+    "birthPlace": "Теннесси, США",
+    "movies": "Криминальное чтиво, Однажды в Голливуде"
+  },
+  {
+    "id": 3,
+    "name": "Мартин Скорсезе",
+    "image": "./assets/directors/skorseze.jpg",
+    "age": 79,
+    "birthPlace": "Нью-Йорк, США",
+    "movies": "Волк с Уолл-стрит, Славные парни, Ирландец"
+  },
+  {
+    "id": 4,
+    "name": "Хаяо Миядзаки",
+    "image": "./assets/directors/hayao-miyazakis.jpg",
+    "age": 80,
+    "birthPlace": "Токио, Япония",
+    "movies": "Унесенные призраками, Ходячий замок"
+  },
+  {
+    "id": 5,
+    "name": "Steven Allan Spielberg",
+    "image": "",
+    "age": 73,
+    "birthPlace": "Cincinnati, Ohio, USA",
+    "movies": "Jaws, E.T. the Extra-Terrestrial, Jurassic Park, Saving Private Ryan",
+    "facts": "Spielberg is widely regarded as one of the greatest directors in the history of cinema. He co-founded DreamWorks Studios and has directed multiple critically acclaimed and commercially successful films.",
+    "awards": "Three-time Academy Award winner for Best Director (Schindler's List, Saving Private Ryan, Lincoln)"
+  },
+  {
+    "id": 6,
+    "name": "Quentin Jerome Tarantino",
+    "image": "",
+    "age": 57,
+    "birthPlace": "Knoxville, Tennessee, USA",
+    "movies": "Pulp Fiction, Kill Bill, Django Unchained, Once Upon a Time in Hollywood",
+    "facts": "Tarantino is known for his unique storytelling style and dialogue-driven films. He often pays homage to earlier films and genres in his work.",
+    "awards": "Two-time Academy Award winner for Best Original Screenplay (Pulp Fiction, Django Unchained)"
+  },
+  {
+    "id": 7,
+    "name": "Martin Charles Scorsese",
+    "image": "",
+    "age": 77,
+    "birthPlace": "New York City, New York, USA",
+    "movies": "Taxi Driver, Goodfellas, The Departed, The Wolf of Wall Street",
+    "facts": "Scorsese is recognized for his collaborations with actor Robert De Niro and frequent exploration of themes like violence and redemption in his films.",
+    "awards": "Academy Award winner for Best Director (The Departed), Honorary Golden Lion (Venice Film Festival), Cecil B. DeMille Award (Golden Globe)"
+  },
+  {
+    "id": 8,
+    "name": "Christopher Edward Nolan",
+    "imageLogo": "",
+    "age": 50,
+    "birthPlace": "London, England",
+    "movies": "Inception, The Dark Knight trilogy, Interstellar, Dunkirk",
+    "facts": "Nolan is known for his complex and mind-bending narratives. He often incorporates practical effects and strives for immersive cinematography in his films.",
+    "awards": "BAFTA Award winner for Best Director (Inception), Academy Award nominations for Best Director (Inception, Dunkirk)"
+  },
+  {
+    "id": 9,
+    "name": "Francis Ford Coppola",
+    "image": "",
+    "age": 81,
+    "birthPlace": "Detroit, Michigan, USA",
+    "movies": "The Godfather trilogy, Apocalypse Now, The Conversation, Bram Stoker's Dracula",
+    "facts" : "Coppola is widely regarded as one of the most influential filmmakers in the New Hollywood wave. His films often deal with themes of power, corruption, and family.",
+    "awards": "Six-time Academy Award winner, including Best Director for The Godfather Part II and Apocalypse Now"
+  },
+  {
+    "id": 10,
+    "name": "Sir Alfred Joseph Hitchcock",
+    "image": "",
+    "age": "(1899-1980)",
+    "birthPlace": "Leytonstone, London, England",
+    "movies": "Psycho, Rear Window, Vertigo, North by Northwest",
+    "facts" : "Hitchcock, often known as the \"Master of Suspense,\" pioneered various filmmaking techniques. His signature cameo appearances in his films became highly anticipated by audiences.",
+    "awards": "Five-time Academy Award nominee for Best Director"
+  },
+  {
+    "id": 11,
+    "name": "Stanley Kubrick",
+    "image": "",
+    "age": "(1928-1999)",
+    "birthPlace": "New York City, New York, USA",
+    "movies": "2001: A Space Odyssey, A Clockwork Orange, The Shining, Full Metal Jacket",
+    "facts" : "Kubrick was known for his meticulous attention to detail and diverse storytelling. He explored multiple genres, leaving a profound impact on cinema.",
+    "awards": "Academy Award winner for Best Visual Effects (2001: A Space Odyssey)"
+  },
+  {
+    "id": 12,
+    "name": "Shelton Jackson Lee",
+    "image": "",
+    "age": "63",
+    "birthPlace": "Atlanta, Georgia, USA",
+    "movies": "Do the Right Thing, Malcolm X, BlacKkKlansman, Da 5 Bloods",
+    "facts" : "Lee is recognized for his exploration of race relations in America. He often incorporates social and political commentary into his films.",
+    "awards": "Academy Award winner for Best Adapted Screenplay (BlacKkKlansman), Honorary Palme d'Or (Cannes Film Festival)"
+  },
+  {
+    "id": 11,
+    "name": "Wesley Wales Anderson",
+    "image": "",
+    "age": "51",
+    "birthPlace": "Houston, Texas, USA",
+    "movies": "The Grand Budapest Hotel, Moonrise Kingdom, The Royal Tenenbaums, Isle of Dogs",
+    "facts" : "Anderson is known for his distinctive visual style and quirky storytelling. His films often feature eccentric characters and meticulously crafted production design.",
+    "awards": "Silver Bear for Best Director (Berlin International Film Festival), Best Original Screenplay nominee (The Royal Tenenbaums)"
+  }
+]
