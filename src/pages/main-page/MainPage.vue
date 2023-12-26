@@ -30,7 +30,7 @@
                 <CardBlock @click="showCard(film)" v-show="getVisibility(film.name)" >
 
                     <template v-slot:image>
-                        <img :src="film.imageLogo">
+                        <img :src="film.imageLogo" alt="logo">
                     </template>
 
                     <template v-slot:info>

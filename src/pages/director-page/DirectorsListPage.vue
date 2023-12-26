@@ -16,7 +16,7 @@
                 <CardBlock @click="showCard(director)" v-show="getVisibility(director.name)">
 
                     <template v-slot:image>
-                        <img :src="director.image">
+                        <img :src="director.imageLogo" alt="logo">
                     </template>
 
                     <template v-slot:info>
